@@ -85,18 +85,10 @@ Thumbs.db
 results/
 
 # ===========================
-# Images & Documents
+# Specific excluded files
 # ===========================
-*.jpg
-*.jpeg
-*.png
-*.gif
-*.pdf
-
-# ===========================
-# Test files
-# ===========================
-tests/
+20251018_113140.jpg
+Plan de Negocio*.pdf
 test.ipynb
 test_ticket.ipynb
 
