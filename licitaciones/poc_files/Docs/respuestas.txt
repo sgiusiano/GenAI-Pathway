@@ -1,0 +1,15 @@
+Licitacion 001--->Respuesta: RS SET 220 20 (2M10)
+Licitacion 002--->Respuesta:RIT4H0MA - Cargador Inteligente Trifásico Modelo RCTi 110 50
+                            RIT4G0MA - Cargador Inteligente Trifásico Modelo RCTi 110 40
+                            RIM4F0MA - Cargador Inteligente Monofásico Modelo RCMi 110 30
+                            RIM4D0MA - Cargador Inteligente Monofásico Modelo RCMi 110 20
+Licitacion 003--->Respuesta:RIT4G2MA - Cargador Inteligente Trifásico Modelo RCTi 110 40 CD
+                            BBEB160_92_3_AA - Banco de Baterías Ni Cd Curva M 110Vcc 160Ah KPM160 (92+3)
+Licitacion 004--->Respuesta:RDT4M2MA - **Cargador Digital Trifasico Modelo RDT 110 100 CD
+                            RDTREP001AA - LOTE DE REPUESTOS-SERVELEC- PARA RDT
+                            BBEA200_87_AB - **Banco de Baterías Ni Cd Curva L 110Vcc 200Ah KPL200 (86)
+                            BATREP001AA - LOTE DE REPUESTOS-SERVELEC- BATERIAS.1
+                            RIT3M2MA - **Cargador Digital Trifásico Modelo RDT 48 100 CD
+                            BBEA150_40_AA - **Banco de Baterías Ni Cd Curva L 48Vcc 150Ah GNL150 (38)
+                            BATREP002AA - LOTE DE REPUESTOS-SERVELEC- BATERIAS.2
+                            SERV.TEC02 - Asistencia técnica para PeM y Ensayos SAT Cargadores y Baterias

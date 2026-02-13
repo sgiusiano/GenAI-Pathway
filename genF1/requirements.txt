@@ -1,0 +1,8 @@
+torch
+transformers
+chromadb
+pillow
+requests
+openai
+python-dotenv
+numpy

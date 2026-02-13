@@ -1,0 +1,62 @@
+[project]
+name = "licitaciones"
+version = "0.1.0"
+description = "Sistema de procesamiento de licitaciones eléctricas con extracción de productos y matching contra catálogo"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    # Core
+    "pydantic>=2.0",
+    "pydantic-settings>=2.0",
+    "python-dotenv>=1.0",
+    # Database
+    "psycopg2-binary>=2.9",
+    # PDF Processing
+    "pymupdf>=1.23",
+    # LLM Providers
+    "google-genai>=1.0",
+    "openai>=1.0",
+    # LangChain (for structured output)
+    "langchain>=0.3",
+    "langchain-openai>=0.2",
+    "langchain-core>=0.3",
+    "langchain-text-splitters>=0.3",
+    # Data processing
+    "pandas>=2.0",
+    "langchain-google-genai>=3.2.0",
+    "ruff>=0.14.7",
+    "sqlalchemy>=2.0.45",
+]
+
+[project.optional-dependencies]
+dev = [
+    "ruff>=0.8",
+    "pytest>=8.0",
+    "pytest-cov>=4.0",
+]
+
+[project.scripts]
+licitaciones = "licitaciones:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/licitaciones"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+exclude = ["poc_files"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "N", "W", "UP"]
+ignore = ["E501"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["licitaciones"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

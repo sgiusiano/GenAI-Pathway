@@ -1,0 +1,106 @@
+# ===========================
+# Environment & Secrets
+# ===========================
+.env
+.env.local
+.env.*.local
+.env.production
+.env.staging
+
+# ===========================
+# Python
+# ===========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+*.whl
+.python-version
+
+# ===========================
+# Virtual Environments
+# ===========================
+.venv/
+venv/
+env/
+ENV/
+
+# ===========================
+# Testing & Coverage
+# ===========================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# ===========================
+# Linting & Formatting
+# ===========================
+.ruff_cache/
+.mypy_cache/
+
+# ===========================
+# Vector Databases & Data
+# ===========================
+chroma_db/
+*.sqlite3
+
+# ===========================
+# Node.js
+# ===========================
+node_modules/
+package-lock.json
+
+# ===========================
+# IDE & Editors
+# ===========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ===========================
+# OS Files
+# ===========================
+.DS_Store
+Thumbs.db
+
+# ===========================
+# Jupyter
+# ===========================
+.ipynb_checkpoints/
+
+# ===========================
+# Large / Generated Files
+# ===========================
+*.bin
+*.sqlite3
+results/
+
+# ===========================
+# Images & Documents
+# ===========================
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.pdf
+
+# ===========================
+# Test files
+# ===========================
+tests/
+test.ipynb
+test_ticket.ipynb
+
+# ===========================
+# Claude Code
+# ===========================
+.claude/

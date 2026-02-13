@@ -1,0 +1,10 @@
+{
+  "timestamp": "2022-03-22T14:30:00Z",
+  "customer_id": "123456",
+  "conversation_summary": "The customer is having trouble configuring a router they purchased last week. The assistant provided general troubleshooting steps, including resetting the router, reconfiguring it, and updating the firmware. The customer provided the model of the router (XYZ500), and the assistant then provided model-specific troubleshooting steps, including verifying the router's IP address, checking for model-specific firmware, and contacting the manufacturer's support. The assistant also mentioned the possibility of a product replacement if the issue cannot be resolved.",
+  "query_category": "product_inquiry",
+  "customer_sentiment": "neutral",
+  "urgency_level": "low",
+  "resolution_status": "pending",
+  "follow_up_required": true
+}

@@ -1,0 +1,10 @@
+{
+  "timestamp": "2022-03-22T14:30:00Z",
+  "customer_id": "12345",
+  "conversation_summary": "The customer was having trouble configuring their XYZ500 router. The assistant provided a series of troubleshooting steps, including resetting the router, reconfiguring the router, and updating the firmware. The assistant also provided model-specific tips for the XYZ500 router. The assistant offered further help if the customer continues to have difficulties, including discussing return or replacement options.",
+  "query_category": "product_inquiry",
+  "customer_sentiment": "neutral",
+  "urgency_level": "low",
+  "resolution_status": "pending",
+  "follow_up_required": true
+}

@@ -1,0 +1,68 @@
+# rag/settings/config.yaml
+# Simple configuration for VS Code Graph RAG project
+
+# Project Settings
+project:
+  name: "VS Code Graph RAG"
+  data_source: "microsoft/vscode"
+
+# Data Collection
+data:
+  releases_limit: 300
+  issues_limit: 1500
+  include_images: true
+  include_audio: false
+
+# Graph RAG Settings
+graph:
+  max_hops: 2
+  entity_types:
+    - "Person"
+    - "Release" 
+    - "Issue"
+    - "Feature"
+  relations:
+    - "AUTHORED_BY"
+    - "FIXES"
+    - "ASSIGNED_TO"
+    - "MENTIONS"
+
+# Multimodal Settings
+multimodal:
+  text:
+    chunk_size: 500
+    chunk_overlap: 50
+  images:
+    ocr_enabled: true
+    max_size: 1024
+  tables:
+    extract_from_markdown: true
+
+# Guardrails
+guardrails:
+  citation_required: true
+  min_confidence: 0.7
+  no_answer_threshold: 0.5
+
+# Vector Database
+vector_db:
+  provider: "chroma"
+  persist_path: "./data/processed/embeddings"
+  
+# Models
+models:
+  embedding: "all-MiniLM-L6-v2"
+  llm: "gpt-4o-mini"
+  temperature: 0.1
+
+# Evaluation
+evaluation:
+  test_queries: 10
+  metrics:
+    - "correctness"
+    - "citation_quality"
+    - "response_time"
+
+#Neo4j Settings
+neo4j:
+  uri: "bolt://localhost:7687"

@@ -1,0 +1,24 @@
+{
+  "timestamp": "2024-06-15T10:30:00",
+  "customer_id": "CUST-0001",
+  "conversation_summary": "Customer reported a tablet purchased 8 months ago will not turn on and inquired about using the warranty. Assistant expressed empathy, confirmed warranty eligibility, and requested customer/order details to proceed with support.",
+  "query_category": "technical",
+  "customer_sentiment": "negative",
+  "urgency_level": "medium",
+  "mentioned_products": [
+    "tablet"
+  ],
+  "extracted_information": {
+    "order_number": "unknown",
+    "purchase_date": "8 months ago",
+    "amount": "unknown"
+  },
+  "resolution_status": "pending",
+  "actions_taken": [
+    "Acknowledged issue",
+    "Explained warranty coverage",
+    "Requested customer and order details",
+    "Provided contact options"
+  ],
+  "follow_up_required": true
+}

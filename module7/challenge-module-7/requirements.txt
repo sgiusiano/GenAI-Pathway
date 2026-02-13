@@ -1,0 +1,8 @@
+# Python version requirement
+python>=3.9,<=3.13
+
+# Dependencies with pinned versions
+langgraph==0.2.49
+langchain-core==0.3.26
+langchain-openai==0.2.12
+python-dotenv==1.0.1

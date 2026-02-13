@@ -1,0 +1,329 @@
+Document page 2 chunk 1
+Document content: g. “CONTRATISTA” O “PROVEEDOR" a la/s persona/s con las que contrate la EPEC en los 
+términos del Régimen Legal aplicable a esta contratación;   
+h. "INSPECCIÓN" al acto realizado por el personal de la EPEC a cuyo cargo esté el control 
+y aprobación de los bienes y servicios objeto del contrato; 
+i. 
+“BOE” al Boletín Oficial Electrónico de la Provincia de Córdoba.  
+Art. 3. Objeto de la contratación: El objeto del presente procedimiento es la “ADQUISICIÓN 
+CARGADORES Y RECTIFICADORES” conforme las Especificaciones Técnicas y demás documentos 
+del legajo licitatorio, en los términos del Decreto Provincial N° 399/2019.   
+Descripción de lo solicitado: 
+Renglón 
+Cant 
+Uni 
+Descripción 
+1 
+4 
+Pza 00013113 RECTIFICADOR CARGADOR DE BATERIA 
+1 
+2 
+Eqp 00013044 EQUIPO RECTIFICADOR- CARGADOR DE BATERIAS DE 
+S.A. 380V CA/ 110VCCREGULACION ELECTRONICA 
+3 
+1 
+Eqp 00014249 EQUIPO RECTIFICADOR- CARGADOR DE BATERIAS DE 
+S.A. 220V CA/ 110VCC REGULACION ELECTRONICA/MONOFASICA 
+4 
+1 
+Eqp 00015785
+Extracted data: generales=Generales(codigo_producto='00013113', marca=None, modelo='RECTIFICADOR CARGADOR DE BATERIA', normas_fabricacion=None, origen=None, tipo='CARGADORES Y RECTIFICADORES', apto_baterias_pb_y_nicd=None) condiciones_ambientales=CondicionesAmbientales(temperatura_max_c=None, temperatura_min_c=None, altura_snm_m=None, humedad_relativa_max_pct=None, instalacion=None, tipo_servicio=None) alimentacion=Alimentacion(tipo=None, tension_v=None, rango_tension_entrada=None, frecuencia_hz=None, rango_frecuencia_entrada=None, conexion_neutro_tierra=None, conductor_pe_independiente=None, isc_punto_conexion=None, interruptor_acometida=None, potencia_transformador_entrada_kva=None, corriente_conexion_transformador_a=None) salida=Salida(tension_nominal_v=Decimal('110'), corriente_nominal_a=None, maxima_corriente_consumos_a=None) carga_baterias=None gabinete=None otros=None protecciones=None alarmas=None senalizaciones=None aparatos_medida=None caracteristicas_accesorios=None inspecciones_ensayos=None garantia=None
+--------------------------------------------------
+
+Document page 2 chunk 2
+Document content: S.A. 380V CA/ 110VCCREGULACION ELECTRONICA 
+3 
+1 
+Eqp 00014249 EQUIPO RECTIFICADOR- CARGADOR DE BATERIAS DE 
+S.A. 220V CA/ 110VCC REGULACION ELECTRONICA/MONOFASICA 
+4 
+1 
+Eqp 00015785 
+EQUIPO 
+RECTIFICADOR/CARGADOR 
+DE 
+BATERIA/SEMIAUTOMATICO/CON POTENCIOMETRO DE AJUSTE 
+DE TENSION Y CORRIENTE/ TENSION ENTRADA 220VCA/TENSION 
+DE SALIDA (0/150VCC)/CORRIENTE DE SERVICIO (0/15A) 
+ 
+Art. 4. Presupuesto Oficial: El presupuesto oficial de la presente contratación asciende a la suma 
+de PESOS NOVENTA Y UN MILLONES QUINIENTOS TREINTA Y OCHO MIL SEISCIENTOS TREINTA 
+CON 56/100 ($91.538.630,56) IVA incluido.
+Extracted data: generales=Generales(codigo_producto='00014249', marca='S.A.', modelo='RECTIFICADOR- CARGADOR DE BATERIAS', normas_fabricacion=None, origen=None, tipo='RECTIFICADOR/CARGADOR', apto_baterias_pb_y_nicd=None) condiciones_ambientales=CondicionesAmbientales(temperatura_max_c=None, temperatura_min_c=None, altura_snm_m=None, humedad_relativa_max_pct=None, instalacion=None, tipo_servicio=None) alimentacion=Alimentacion(tipo=<FaseTipo.monofasica: 'monofásica'>, tension_v=Decimal('220'), rango_tension_entrada=NumericRange(min=Decimal('220'), max=Decimal('220'), unidad='V'), frecuencia_hz=None, rango_frecuencia_entrada=None, conexion_neutro_tierra=None, conductor_pe_independiente=None, isc_punto_conexion=None, interruptor_acometida=None, potencia_transformador_entrada_kva=None, corriente_conexion_transformador_a=None) salida=Salida(tension_nominal_v=Decimal('150'), corriente_nominal_a=Decimal('15'), maxima_corriente_consumos_a=None) carga_baterias=CargaBaterias(tension_flote=None, estabilizacion_tension_flote=None, tension_fondo=None, modos_carga=None, regulador_diodos=None, rango_tension_salida_consumo=None, deteccion_polo_tierra=None, interruptor_salida_consumo=None, interruptor_salida_baterias=None, sistema_rectificacion=None, ripple_con_baterias=None, ripple_sin_baterias=None) gabinete=Gabinete(material=None, acceso=None, grado_proteccion=None, espesor_chapa_estructura_mm=None, tipo_pintura=None, color=None, espesor_pintura_micras=None, dimensiones=None) otros=Otros(ventilacion=None, rectificador=None) protecciones=Protecciones(sobretensiones_cc=None, sobretensiones_ca=None, cortocircuito=None, sobrecarga=None, lvd=None) alarmas=None senalizaciones=None aparatos_medida=None caracteristicas_accesorios=None inspecciones_ensayos=None garantia=None
+--------------------------------------------------
+
+Document page 30 chunk 0
+Document content: 2024 
+ 
+ 
+ 
+ 
+ADQUISICIÓN CARGADORES Y 
+RECTIFICADORES 
+PLIEGO DE ESPECIFICACIONES TÉCNICAS 
+DEPARTAMENTO DE MANTENIMIENTO ELECTROMECÁNICO
+Extracted data: generales=Generales(codigo_producto=None, marca=None, modelo=None, normas_fabricacion=None, origen=None, tipo=None, apto_baterias_pb_y_nicd=None) condiciones_ambientales=CondicionesAmbientales(temperatura_max_c=None, temperatura_min_c=None, altura_snm_m=None, humedad_relativa_max_pct=None, instalacion=None, tipo_servicio=None) alimentacion=None salida=None carga_baterias=None gabinete=None otros=None protecciones=None alarmas=None senalizaciones=None aparatos_medida=None caracteristicas_accesorios=None inspecciones_ensayos=None garantia=None
+--------------------------------------------------
+
+Document page 31 chunk 0
+Document content: PLIEGO DE ESPECIFICACIONES TÉCNICAS 
+DEPARTAMENTO DE MANTENIMIENTO ELECTROMECÁNICO 
+1 
+ 
+1 Objetivo 
+El presente Pliego tiene por objeto establecer las especificaciones y condiciones técnicas que regirán 
+la presente solicitud de provisión e instalación de equipamiento. 
+2 Alcance 
+La presente contratación contempla la provisión de rectificadores y cargadores de baterías, en un 
+todo de acuerdo a las especificaciones y condiciones técnicas que se estipulan en el presente pliego. 
+3 Suministro 
+La presente contratación contempla la provisión de rectificadores y cargadores de baterías, según: 
+ 
+Ítem 1: Cuatro (4) rectificador/cargador de batería con regulación electrónica, apto para una 
+tensión de entrada de 380 Vca, una tensión de salida de 110 Vcc y una corriente de servicio de 50 A. 
+Ítem 2: Dos (2) rectificador/cargador de batería con regulación electrónica, apto para una tensión
+Extracted data: generales=Generales(codigo_producto=None, marca=None, modelo=None, normas_fabricacion=None, origen=None, tipo=None, apto_baterias_pb_y_nicd=None) condiciones_ambientales=CondicionesAmbientales(temperatura_max_c=None, temperatura_min_c=None, altura_snm_m=None, humedad_relativa_max_pct=None, instalacion=None, tipo_servicio=None) alimentacion=Alimentacion(tipo=<FaseTipo.trifasica: 'trifásica'>, tension_v=Decimal('380'), rango_tension_entrada=NumericRange(min=Decimal('380'), max=Decimal('380'), unidad='V'), frecuencia_hz=None, rango_frecuencia_entrada=None, conexion_neutro_tierra=None, conductor_pe_independiente=None, isc_punto_conexion=None, interruptor_acometida=None, potencia_transformador_entrada_kva=None, corriente_conexion_transformador_a=None) salida=Salida(tension_nominal_v=Decimal('110'), corriente_nominal_a=Decimal('50'), maxima_corriente_consumos_a=None) carga_baterias=CargaBaterias(tension_flote=None, estabilizacion_tension_flote=None, tension_fondo=None, modos_carga=None, regulador_diodos=None, rango_tension_salida_consumo=None, deteccion_polo_tierra=None, interruptor_salida_consumo=None, interruptor_salida_baterias=None, sistema_rectificacion=None, ripple_con_baterias=None, ripple_sin_baterias=None) gabinete=Gabinete(material=None, acceso=None, grado_proteccion=None, espesor_chapa_estructura_mm=None, tipo_pintura=None, color=None, espesor_pintura_micras=None, dimensiones=None) otros=Otros(ventilacion=None, rectificador=None) protecciones=Protecciones(sobretensiones_cc=None, sobretensiones_ca=None, cortocircuito=None, sobrecarga=None, lvd=None) alarmas=None senalizaciones=None aparatos_medida=None caracteristicas_accesorios=None inspecciones_ensayos=None garantia=None
+--------------------------------------------------
+
+Document page 31 chunk 1
+Document content: Ítem 2: Dos (2) rectificador/cargador de batería con regulación electrónica, apto para una tensión 
+de entrada de 380 Vca, una tensión de salida de 110 Vcc y una corriente de servicio de 40 A. 
+Ítem 3: Uno (1) rectificador/cargador de batería con regulación electrónica, apto para una tensión 
+de entrada de 220 Vca, una tensión de salida de 110 Vcc y una corriente de servicio de 30 A. 
+Ítem 4: Uno (1) rectificador/cargador de batería con regulación electrónica, apto para una tensión 
+de entrada de 220 Vca, una tensión de salida de 110 Vcc y una corriente de servicio de 30 A. 
+ 
+En un todo de acuerdo a las Especificaciones Técnicas que se estipulan en el presente Pliego. 
+4 Especificaciones Técnicas 
+4.1 Descripción equipamiento 
+Los equipos serán con regulación de tensión bajo carga a través de un sistema idóneo que permita 
+regular entre 90Vcc y 150Vcc el valor de continua a la salida del equipo.
+Extracted data: generales=Generales(codigo_producto=None, marca=None, modelo=None, normas_fabricacion=None, origen=None, tipo=None, apto_baterias_pb_y_nicd=None) condiciones_ambientales=CondicionesAmbientales(temperatura_max_c=None, temperatura_min_c=None, altura_snm_m=None, humedad_relativa_max_pct=None, instalacion=None, tipo_servicio=None) alimentacion=Alimentacion(tipo=None, tension_v=None, rango_tension_entrada=NumericRange(min=Decimal('220'), max=Decimal('380'), unidad='V'), frecuencia_hz=None, rango_frecuencia_entrada=None, conexion_neutro_tierra=None, conductor_pe_independiente=None, isc_punto_conexion=None, interruptor_acometida=None, potencia_transformador_entrada_kva=None, corriente_conexion_transformador_a=None) salida=Salida(tension_nominal_v=Decimal('110'), corriente_nominal_a=None, maxima_corriente_consumos_a=None) carga_baterias=CargaBaterias(tension_flote=NumericRange(min=Decimal('90'), max=Decimal('150'), unidad='V'), estabilizacion_tension_flote=None, tension_fondo=None, modos_carga=None, regulador_diodos=None, rango_tension_salida_consumo=None, deteccion_polo_tierra=None, interruptor_salida_consumo=None, interruptor_salida_baterias=None, sistema_rectificacion=None, ripple_con_baterias=None, ripple_sin_baterias=None) gabinete=Gabinete(material=None, acceso=None, grado_proteccion=None, espesor_chapa_estructura_mm=None, tipo_pintura=None, color=None, espesor_pintura_micras=None, dimensiones=None) otros=Otros(ventilacion=None, rectificador=None) protecciones=Protecciones(sobretensiones_cc=None, sobretensiones_ca=None, cortocircuito=None, sobrecarga=None, lvd=None) alarmas=None senalizaciones=None aparatos_medida=None caracteristicas_accesorios=None inspecciones_ensayos=None garantia=None
+--------------------------------------------------
+
+Document page 31 chunk 2
+Document content: Los equipos serán con regulación de tensión bajo carga a través de un sistema idóneo que permita 
+regular entre 90Vcc y 150Vcc el valor de continua a la salida del equipo. 
+Los equipos deberán poder regular la corriente de salida entre valores del 10% y 100% de la corriente 
+nominal de salida. 
+a) El ripple no será mayor del 3% sobre batería para cargadores de 110 Volt CC (baterías de 
+estaciones). 
+b) La estabilidad de salida será de ± 1% contra variaciones de línea de ± 10%, con carga de 0% 
+al 100% y variaciones de frecuencia de ± 2% referida a 50Hz. 
+c) Ventilación: Natural por libre convección. 
+d) Temperatura ambiente: -10ºC a +45 ºC. 
+e) Humedad relativa: 80% 
+f) Clase térmica: F. 
+g) Rendimiento: No menor del 80% en equipos trifásicos y 70% en equipos monofásicos. El 
+rendimiento se medirá con carga de flotación, 50% de la carga nominal del equipo y con una 
+tensión de entrada estable de 380 V en equipos trifásicos y 220 V en monofásicos.
+Extracted data: generales=Generales(codigo_producto=None, marca=None, modelo=None, normas_fabricacion=None, origen=None, tipo=None, apto_baterias_pb_y_nicd=None) condiciones_ambientales=CondicionesAmbientales(temperatura_max_c=Decimal('45'), temperatura_min_c=Decimal('-10'), altura_snm_m=None, humedad_relativa_max_pct=Decimal('80'), instalacion=None, tipo_servicio=None) alimentacion=Alimentacion(tipo=None, tension_v=None, rango_tension_entrada=NumericRange(min=Decimal('90'), max=Decimal('150'), unidad='V'), frecuencia_hz=Decimal('50'), rango_frecuencia_entrada=NumericRange(min=Decimal('48'), max=Decimal('52'), unidad='Hz'), conexion_neutro_tierra=None, conductor_pe_independiente=None, isc_punto_conexion=None, interruptor_acometida=None, potencia_transformador_entrada_kva=None, corriente_conexion_transformador_a=None) salida=Salida(tension_nominal_v=None, corriente_nominal_a=None, maxima_corriente_consumos_a=None) carga_baterias=CargaBaterias(tension_flote=None, estabilizacion_tension_flote=None, tension_fondo=None, modos_carga=None, regulador_diodos=None, rango_tension_salida_consumo=None, deteccion_polo_tierra=None, interruptor_salida_consumo=None, interruptor_salida_baterias=None, sistema_rectificacion=None, ripple_con_baterias='3%', ripple_sin_baterias=None) gabinete=Gabinete(material=None, acceso=None, grado_proteccion=None, espesor_chapa_estructura_mm=None, tipo_pintura=None, color=None, espesor_pintura_micras=None, dimensiones=None) otros=Otros(ventilacion='Natural por libre convección', rectificador=None) protecciones=Protecciones(sobretensiones_cc=None, sobretensiones_ca=None, cortocircuito=None, sobrecarga=None, lvd=None) alarmas=None senalizaciones=None aparatos_medida=None caracteristicas_accesorios=None inspecciones_ensayos=InspeccionesEnsayos(resistencia_aislacion=None, ensayo_dieletrico=None, resistencia_aislacion_post=None, elementos_mecanicos_enclavamientos=None, tolerancia_tension_salida=True, nivel_rizado=True, verificacion_valores_salida_control=None, verificacion_tensiones_carga=None, variacion_tension_alimentacion=None, variacion_carga_0_a_100=None, verificacion_carga_bateria=None, contenido_armonicos_alimentacion=None, ensayo_plena_carga_48h=None, ensayo_rendimiento=None, reparto_intensidades_paralelo=None, prueba_senalizacion_alarma=None, prueba_funcional_total=None, capacidad_corriente_cortocircuito=None) garantia=None
+--------------------------------------------------
+
+Document page 31 chunk 3
+Document content: rendimiento se medirá con carga de flotación, 50% de la carga nominal del equipo y con una 
+tensión de entrada estable de 380 V en equipos trifásicos y 220 V en monofásicos. 
+h) Los diodos y tiristores poseerán una tensión de pico inverso repetitiva de 8 veces como mínimo 
+la nominal. Considerando esto, los "recortes" de picos de tensión se efectuarán dentro de un
+Extracted data: generales=Generales(codigo_producto=None, marca=None, modelo=None, normas_fabricacion=None, origen=None, tipo=None, apto_baterias_pb_y_nicd=None) condiciones_ambientales=CondicionesAmbientales(temperatura_max_c=None, temperatura_min_c=None, altura_snm_m=None, humedad_relativa_max_pct=None, instalacion=None, tipo_servicio=None) alimentacion=Alimentacion(tipo=<FaseTipo.trifasica: 'trifásica'>, tension_v=Decimal('380'), rango_tension_entrada=None, frecuencia_hz=None, rango_frecuencia_entrada=None, conexion_neutro_tierra=None, conductor_pe_independiente=None, isc_punto_conexion=None, interruptor_acometida=None, potencia_transformador_entrada_kva=None, corriente_conexion_transformador_a=None) salida=Salida(tension_nominal_v=None, corriente_nominal_a=None, maxima_corriente_consumos_a=None) carga_baterias=CargaBaterias(tension_flote=None, estabilizacion_tension_flote=None, tension_fondo=None, modos_carga=None, regulador_diodos=None, rango_tension_salida_consumo=None, deteccion_polo_tierra=None, interruptor_salida_consumo=None, interruptor_salida_baterias=None, sistema_rectificacion=None, ripple_con_baterias=None, ripple_sin_baterias=None) gabinete=Gabinete(material=None, acceso=None, grado_proteccion=None, espesor_chapa_estructura_mm=None, tipo_pintura=None, color=None, espesor_pintura_micras=None, dimensiones=None) otros=Otros(ventilacion=None, rectificador=None) protecciones=Protecciones(sobretensiones_cc=None, sobretensiones_ca=None, cortocircuito=None, sobrecarga=None, lvd=None) alarmas=None senalizaciones=None aparatos_medida=None caracteristicas_accesorios=None inspecciones_ensayos=InspeccionesEnsayos(resistencia_aislacion=None, ensayo_dieletrico=None, resistencia_aislacion_post=None, elementos_mecanicos_enclavamientos=None, tolerancia_tension_salida=None, nivel_rizado=None, verificacion_valores_salida_control=None, verificacion_tensiones_carga=None, variacion_tension_alimentacion=None, variacion_carga_0_a_100=None, verificacion_carga_bateria=None, contenido_armonicos_alimentacion=None, ensayo_plena_carga_48h=None, ensayo_rendimiento=None, reparto_intensidades_paralelo=None, prueba_senalizacion_alarma=None, prueba_funcional_total=None, capacidad_corriente_cortocircuito=None) garantia=None
+--------------------------------------------------
+
+Document page 32 chunk 0
+Document content: PLIEGO DE ESPECIFICACIONES TÉCNICAS 
+DEPARTAMENTO DE MANTENIMIENTO ELECTROMECÁNICO 
+2 
+ 
+valor no mayor del 50% de la tensión máxima de los circuitos a proteger de la unidad de 
+potencia. 
+i) Los equipos deberán ser provistos con tapas desmontables en las cuatro caras, para el acceso 
+a todos sus componentes. 
+j) Los equipos deberán poseer pies de apoyos y no apoyar directamente sobre su base, dejando 
+así una cierta distancia entre la base de los equipos y nivel de suelo. Además, deberán cantar 
+con cáncamos en la parte superior del equipo para poder ser izados. 
+k) Los equipos deberán contar con una única regulación de tensión (tensión de flote) y no contar 
+con una tensión de carga de fondo (si este fuese el caso, no hay necesidad de que el equipo 
+cuente con una cadena de diodos para diferenciar la alimentación de consumo y de 
+baterías); en caso de no poder contar con la anterior solicitud, los equipos deberán poder
+Extracted data: generales=Generales(codigo_producto=None, marca=None, modelo=None, normas_fabricacion=None, origen=None, tipo=None, apto_baterias_pb_y_nicd=None) condiciones_ambientales=CondicionesAmbientales(temperatura_max_c=None, temperatura_min_c=None, altura_snm_m=None, humedad_relativa_max_pct=None, instalacion=None, tipo_servicio=None) alimentacion=Alimentacion(tipo=None, tension_v=None, rango_tension_entrada=None, frecuencia_hz=None, rango_frecuencia_entrada=None, conexion_neutro_tierra=None, conductor_pe_independiente=None, isc_punto_conexion=None, interruptor_acometida=None, potencia_transformador_entrada_kva=None, corriente_conexion_transformador_a=None) salida=Salida(tension_nominal_v=None, corriente_nominal_a=None, maxima_corriente_consumos_a=None) carga_baterias=CargaBaterias(tension_flote=None, estabilizacion_tension_flote=None, tension_fondo=None, modos_carga=None, regulador_diodos=None, rango_tension_salida_consumo=None, deteccion_polo_tierra=None, interruptor_salida_consumo=None, interruptor_salida_baterias=None, sistema_rectificacion=None, ripple_con_baterias=None, ripple_sin_baterias=None) gabinete=Gabinete(material=None, acceso='frontal/lateral/trasero', grado_proteccion=None, espesor_chapa_estructura_mm=None, tipo_pintura=None, color=None, espesor_pintura_micras=None, dimensiones=None) otros=Otros(ventilacion=None, rectificador=None) protecciones=Protecciones(sobretensiones_cc=None, sobretensiones_ca=None, cortocircuito=None, sobrecarga=None, lvd=None) alarmas=None senalizaciones=None aparatos_medida=None caracteristicas_accesorios=None inspecciones_ensayos=None garantia=None
+--------------------------------------------------
+
+Document page 32 chunk 1
+Document content: cuente con una cadena de diodos para diferenciar la alimentación de consumo y de 
+baterías); en caso de no poder contar con la anterior solicitud, los equipos deberán poder 
+igualar sus tensiones de carga (flote y fondo tendrán regulación independiente una de otra 
+pudiendo ser regulados a los mismos valores de tensión si así se desea).  
+La tensión continua a los bornes de salida permanecerá estable frente a variaciones en el valor de la 
+frecuencia y de la tensión alternada a los bornes de entrada del equipo. Se incorporará al circuito 
+primario del equipo un sistema atenuador que impida el ingreso de pulsos eléctricos con elevado 
+frente de onda originados en maniobras de aparatos de alta tensión (25 ms, según Recomendación 
+IEC 60). 
+Se aceptarán equipos con control automático a partir de sistema digital por microprocesador para 
+gobierno del sistema de tiristores. El control digital permitirá entrada de vía RS485 el cual permitirá
+Extracted data: generales=Generales(codigo_producto=None, marca=None, modelo=None, normas_fabricacion='IEC 60', origen=None, tipo=None, apto_baterias_pb_y_nicd=None) condiciones_ambientales=CondicionesAmbientales(temperatura_max_c=None, temperatura_min_c=None, altura_snm_m=None, humedad_relativa_max_pct=None, instalacion=None, tipo_servicio=None) alimentacion=Alimentacion(tipo=None, tension_v=None, rango_tension_entrada=None, frecuencia_hz=None, rango_frecuencia_entrada=None, conexion_neutro_tierra=None, conductor_pe_independiente=None, isc_punto_conexion=None, interruptor_acometida=None, potencia_transformador_entrada_kva=None, corriente_conexion_transformador_a=None) salida=Salida(tension_nominal_v=None, corriente_nominal_a=None, maxima_corriente_consumos_a=None) carga_baterias=CargaBaterias(tension_flote=None, estabilizacion_tension_flote=None, tension_fondo=None, modos_carga=None, regulador_diodos=True, rango_tension_salida_consumo=None, deteccion_polo_tierra=None, interruptor_salida_consumo=None, interruptor_salida_baterias=None, sistema_rectificacion=None, ripple_con_baterias=None, ripple_sin_baterias=None) gabinete=Gabinete(material=None, acceso=None, grado_proteccion=None, espesor_chapa_estructura_mm=None, tipo_pintura=None, color=None, espesor_pintura_micras=None, dimensiones=None) otros=Otros(ventilacion=None, rectificador='cadena de diodos') protecciones=Protecciones(sobretensiones_cc=None, sobretensiones_ca=None, cortocircuito=None, sobrecarga=None, lvd=None) alarmas=None senalizaciones=None aparatos_medida=AparatosDeMedida(unidad_digital_centralizada=None, protocolo_comunicacion='RS485', puerto_comunicacion=None, mide_corrientes_entrada=None, mide_tensiones_entrada=None, mide_corriente_salida_rectificador=None, mide_corriente_carga_baterias=None, mide_tension_salida_rectificador=None, mide_tension_baterias=None, mide_tension_consumos=None, mide_corriente_descarga_baterias=None) caracteristicas_accesorios=None inspecciones_ensayos=None garantia=None
+--------------------------------------------------
+
+Document page 32 chunk 2
+Document content: gobierno del sistema de tiristores. El control digital permitirá entrada de vía RS485 el cual permitirá 
+transferir los parámetros del equipo a través de las RTU que posee EPEC, en el caso de que así se 
+quisiese. 
+5 Condiciones Técnicas 
+5.1 Plazo de entregas 
+Para la totalidad de los ítems, dentro de los setenta y cinco (75) días el adjudicatario deberá disponer 
+de los equipos listos para su instalación. 
+Estos plazos se deben entender en días corridos a contar de la fecha de recepción de la Orden de 
+Provisión respectiva. 
+La EPEC se reserva el derecho de aceptar plazo de entrega distinto al estipulado sin que ello de 
+derecho a reclamo alguno por parte de los demás oferentes. 
+5.2 Lugar y condición de entrega 
+La entrega y recepción de los equipos deberá efectuarse libre de todo cargo por flete, acarreo, 
+seguro y descarga, en Almacén Central de la E.P.E.C., sito en Av. Savio S/N, camino a Interfábricas 
+frente a fábrica FIAT, ciudad de Córdoba.
+Extracted data: generales=Generales(codigo_producto=None, marca=None, modelo=None, normas_fabricacion=None, origen=None, tipo=None, apto_baterias_pb_y_nicd=None) condiciones_ambientales=CondicionesAmbientales(temperatura_max_c=None, temperatura_min_c=None, altura_snm_m=None, humedad_relativa_max_pct=None, instalacion=None, tipo_servicio=None) alimentacion=None salida=None carga_baterias=None gabinete=None otros=Otros(ventilacion=None, rectificador='tiristores') protecciones=None alarmas=None senalizaciones=None aparatos_medida=AparatosDeMedida(unidad_digital_centralizada=None, protocolo_comunicacion='RS485', puerto_comunicacion=None, mide_corrientes_entrada=None, mide_tensiones_entrada=None, mide_corriente_salida_rectificador=None, mide_corriente_carga_baterias=None, mide_tension_salida_rectificador=None, mide_tension_baterias=None, mide_tension_consumos=None, mide_corriente_descarga_baterias=None) caracteristicas_accesorios=None inspecciones_ensayos=None garantia=None
+--------------------------------------------------
+
+Document page 34 chunk 2
+Document content: placa de alarmas, etc.)  
+b) En caso de que la placa de control este comandada por un microcontrolador, el mismo 
+deberá estar programado con el mismo programa con el cual da funcionamiento al equipo, 
+el cual estaría destinado a reemplazar en caso de falla. Además, deberá suministrar un 
+repuesto de los componentes que conformen el puente rectificador.  
+c) En el caso de estar compuesto por diodos y tiristores individuales (semi-controlado), deberán 
+suministrar uno de cada uno. Si solo fueran tiristores individuales (totalmente controlado), 
+deberán suministrar 2 (dos) tiristores. Por último, en caso de usar semipack, ya sean diodo-tiristor 
+o tiristor-tiristor, lo que se suministrará será un semipack que conforma el puente rectificador 
+según sea el caso. 
+6 Recepción 
+En la recepción de los materiales y equipos por parte de la EPEC, se verificará que los mismos 
+respondan exactamente a las especificaciones técnicas, rechazándose cualquier variante
+Extracted data: generales=Generales(codigo_producto=None, marca=None, modelo=None, normas_fabricacion=None, origen=None, tipo=None, apto_baterias_pb_y_nicd=None) condiciones_ambientales=CondicionesAmbientales(temperatura_max_c=None, temperatura_min_c=None, altura_snm_m=None, humedad_relativa_max_pct=None, instalacion=None, tipo_servicio=None) alimentacion=None salida=None carga_baterias=None gabinete=None otros=Otros(ventilacion=None, rectificador='puente rectificador') protecciones=None alarmas=None senalizaciones=None aparatos_medida=None caracteristicas_accesorios=None inspecciones_ensayos=None garantia=None
+--------------------------------------------------
+
+Document page 34 chunk 3
+Document content: 6 Recepción 
+En la recepción de los materiales y equipos por parte de la EPEC, se verificará que los mismos 
+respondan exactamente a las especificaciones técnicas, rechazándose cualquier variante 
+introducida en las marcas o en los materiales utilizados. 
+Las marcas indicadas en las matriculas son a modo indicativo. Los elementos a proveer deberán ser 
+intercambiados con los solicitados en características mecánicas, físicas, dimensionales y eléctricas. 
+Cuando los elementos ofrecidos difieran con los descriptos, y no sean iguales dimensional, física, 
+química y eléctricamente con los solicitados; se acompañará con la oferta una muestra de dicho 
+elemento, identificándose el número de ítem, para ser analizado si fuese necesario por el sector del 
+taller correspondiente.
+Extracted data: generales=Generales(codigo_producto=None, marca=None, modelo=None, normas_fabricacion=None, origen=None, tipo=None, apto_baterias_pb_y_nicd=None) condiciones_ambientales=CondicionesAmbientales(temperatura_max_c=None, temperatura_min_c=None, altura_snm_m=None, humedad_relativa_max_pct=None, instalacion=None, tipo_servicio=None) alimentacion=Alimentacion(tipo=None, tension_v=None, rango_tension_entrada=None, frecuencia_hz=None, rango_frecuencia_entrada=None, conexion_neutro_tierra=None, conductor_pe_independiente=None, isc_punto_conexion=None, interruptor_acometida=None, potencia_transformador_entrada_kva=None, corriente_conexion_transformador_a=None) salida=Salida(tension_nominal_v=None, corriente_nominal_a=None, maxima_corriente_consumos_a=None) carga_baterias=CargaBaterias(tension_flote=None, estabilizacion_tension_flote=None, tension_fondo=None, modos_carga=None, regulador_diodos=None, rango_tension_salida_consumo=None, deteccion_polo_tierra=None, interruptor_salida_consumo=None, interruptor_salida_baterias=None, sistema_rectificacion=None, ripple_con_baterias=None, ripple_sin_baterias=None) gabinete=Gabinete(material=None, acceso=None, grado_proteccion=None, espesor_chapa_estructura_mm=None, tipo_pintura=None, color=None, espesor_pintura_micras=None, dimensiones=None) otros=Otros(ventilacion=None, rectificador=None) protecciones=Protecciones(sobretensiones_cc=None, sobretensiones_ca=None, cortocircuito=None, sobrecarga=None, lvd=None) alarmas=None senalizaciones=None aparatos_medida=None caracteristicas_accesorios=None inspecciones_ensayos=None garantia=None
+--------------------------------------------------
+
+Document page 36 chunk 0
+Document content: PLIEGO DE ESPECIFICACIONES TÉCNICAS 
+DEPARTAMENTO DE MANTENIMIENTO ELECTROMECÁNICO 
+6 
+ 
+8 Planilla de datos técnicos garantizados 
+PLANILLA DE DATOS TÉCNICOS GARANTIZADOS 
+Rectificadores y Cargadores de Baterías 
+Descripción 
+Solicitado 
+Garantizado 
+Marca 
+- 
+  
+Modelo 
+- 
+  
+Tipo 
+Autorregulado 
+  
+Pais de Origen 
+- 
+  
+Celda Rectificadora 
+Tiristores Controlados
+  
+Duración de la recarga hasta el 90% de la capacidad normal de la batería 
+luego de una descarga total 
+hs 
+  
+  
+Resistencia de aislación mínima a 1,1 kV entre borne y tierra 
+  
+  
+Norma 
+-  
+  
+Temperatura de operación 
+Mínima 
+-10 °C 
+  
+Máxima 
+45 °C 
+  
+Humedad relativa 
+85% 
+  
+Corriente Nominal 
+ A 
+  
+Valores de Entrada 
+Tensión Nominal 
+V 
+  
+Variación Max. De tensión 
++/-10% 
+  
+Frecuencia Nominal 
+50 Hz 
+  
+Variación Max. De frecuencia 
++/-2% 
+  
+Valores de Salida 
+Tensión Nominal 
+110 V 
+  
+Ripple máximo 
+3% 
+  
+Variación Max. De tensión 
++/-1% 
+  
+Clase Térmica 
+F 
+  
+Rendimiento 
+%
+Extracted data: generales=Generales(codigo_producto=None, marca=None, modelo=None, normas_fabricacion=None, origen=None, tipo='Autorregulado', apto_baterias_pb_y_nicd=None) condiciones_ambientales=CondicionesAmbientales(temperatura_max_c=Decimal('45'), temperatura_min_c=Decimal('-10'), altura_snm_m=None, humedad_relativa_max_pct=Decimal('85'), instalacion=None, tipo_servicio=None) alimentacion=Alimentacion(tipo=None, tension_v=None, rango_tension_entrada=None, frecuencia_hz=Decimal('50'), rango_frecuencia_entrada=None, conexion_neutro_tierra=None, conductor_pe_independiente=None, isc_punto_conexion=None, interruptor_acometida=None, potencia_transformador_entrada_kva=None, corriente_conexion_transformador_a=None) salida=Salida(tension_nominal_v=Decimal('110'), corriente_nominal_a=None, maxima_corriente_consumos_a=None) carga_baterias=CargaBaterias(tension_flote=None, estabilizacion_tension_flote=None, tension_fondo=None, modos_carga=None, regulador_diodos=None, rango_tension_salida_consumo=None, deteccion_polo_tierra=None, interruptor_salida_consumo=None, interruptor_salida_baterias=None, sistema_rectificacion='Tiristores Controlados', ripple_con_baterias=None, ripple_sin_baterias=None) gabinete=Gabinete(material=None, acceso=None, grado_proteccion=None, espesor_chapa_estructura_mm=None, tipo_pintura=None, color=None, espesor_pintura_micras=None, dimensiones=None) otros=Otros(ventilacion=None, rectificador=None) protecciones=Protecciones(sobretensiones_cc=None, sobretensiones_ca=None, cortocircuito=None, sobrecarga=None, lvd=None) alarmas=Alarmas(falla_red=None, alta_tension_baterias=None, baja_tension_baterias=None, tension_baterias_critica=None, alta_tension_consumos=None, baja_tension_consumos=None, tension_consumo_critica=None, falla_rectificador=None, alta_corriente_rectificador=None, alta_corriente_baterias=None, alta_corriente_consumos=None, polo_positivo_tierra=None, polo_negativo_tierra=None, fallo_ventilador=None, obstruccion_filtros=None, bateria_en_descarga=None, averia_red_salida=None, apertura_interruptores=None, fallo_bateria_supervision=None, temperatura_termostato=None, cargador_modo_fondo=None) senalizaciones=Senalizaciones(red_ok=None, bateria_carga_flotacion=None, bateria_carga_rapida=None, bateria_carga_excepcional=None, ventiladores_funcionando=None, carga_por_red_alternativa=None, falla=None, tension_bateria=None, tension_consumos=None, corriente_baterias=None, corriente_consumos=None, alarmas_discriminadas=None) aparatos_medida=AparatosDeMedida(unidad_digital_centralizada=None, protocolo_comunicacion=None, puerto_comunicacion=None, mide_corrientes_entrada=None, mide_tensiones_entrada=None, mide_corriente_salida_rectificador=None, mide_corriente_carga_baterias=None, mide_tension_salida_rectificador=None, mide_tension_baterias=None, mide_tension_consumos=None, mide_corriente_descarga_baterias=None) caracteristicas_accesorios=CaracteristicasAccesoriosAuxiliares(panel_control=None, resistencias_calefactoras=None, cables_potencia_auxiliares=None, bornes_reserva=None, nivel_ruido_db_a=None, placas_identificacion=None, chapa_caracteristicas=None) inspecciones_ensayos=InspeccionesEnsayos(resistencia_aislacion=None, ensayo_dieletrico=None, resistencia_aislacion_post=None, elementos_mecanicos_enclavamientos=None, tolerancia_tension_salida=None, nivel_rizado=None, verificacion_valores_salida_control=None, verificacion_tensiones_carga=None, variacion_tension_alimentacion=None, variacion_carga_0_a_100=None, verificacion_carga_bateria=None, contenido_armonicos_alimentacion=None, ensayo_plena_carga_48h=None, ensayo_rendimiento=None, reparto_intensidades_paralelo=None, prueba_senalizacion_alarma=None, prueba_funcional_total=None, capacidad_corriente_cortocircuito=None) garantia=Garantia(descripcion=None, meses=None)
+--------------------------------------------------
+
+Document page 36 chunk 1
+Document content: 50 Hz 
+  
+Variación Max. De frecuencia 
++/-2% 
+  
+Valores de Salida 
+Tensión Nominal 
+110 V 
+  
+Ripple máximo 
+3% 
+  
+Variación Max. De tensión 
++/-1% 
+  
+Clase Térmica 
+F 
+  
+Rendimiento 
+% 
+  
+Dimensiones 
+Ancho 
+mm 
+  
+Alto 
+mm 
+  
+Profundidad 
+mm
+Extracted data: generales=Generales(codigo_producto=None, marca=None, modelo=None, normas_fabricacion=None, origen=None, tipo=None, apto_baterias_pb_y_nicd=None) condiciones_ambientales=CondicionesAmbientales(temperatura_max_c=None, temperatura_min_c=None, altura_snm_m=None, humedad_relativa_max_pct=None, instalacion=None, tipo_servicio=None) alimentacion=Alimentacion(tipo=None, tension_v=Decimal('110'), rango_tension_entrada=None, frecuencia_hz=Decimal('50'), rango_frecuencia_entrada=NumericRange(min=Decimal('48.5'), max=Decimal('51.5'), unidad='Hz'), conexion_neutro_tierra=None, conductor_pe_independiente=None, isc_punto_conexion=None, interruptor_acometida=None, potencia_transformador_entrada_kva=None, corriente_conexion_transformador_a=None) salida=Salida(tension_nominal_v=Decimal('110'), corriente_nominal_a=None, maxima_corriente_consumos_a=None) carga_baterias=CargaBaterias(tension_flote=None, estabilizacion_tension_flote=None, tension_fondo=None, modos_carga=None, regulador_diodos=None, rango_tension_salida_consumo=None, deteccion_polo_tierra=None, interruptor_salida_consumo=None, interruptor_salida_baterias=None, sistema_rectificacion=None, ripple_con_baterias=None, ripple_sin_baterias=None) gabinete=Gabinete(material=None, acceso=None, grado_proteccion=None, espesor_chapa_estructura_mm=None, tipo_pintura=None, color=None, espesor_pintura_micras=None, dimensiones=Dimensiones(ancho_mm=None, alto_mm=None, profundidad_mm=None)) otros=Otros(ventilacion=None, rectificador=None) protecciones=Protecciones(sobretensiones_cc=None, sobretensiones_ca=None, cortocircuito=None, sobrecarga=None, lvd=None) alarmas=Alarmas(falla_red=None, alta_tension_baterias=None, baja_tension_baterias=None, tension_baterias_critica=None, alta_tension_consumos=None, baja_tension_consumos=None, tension_consumo_critica=None, falla_rectificador=None, alta_corriente_rectificador=None, alta_corriente_baterias=None, alta_corriente_consumos=None, polo_positivo_tierra=None, polo_negativo_tierra=None, fallo_ventilador=None, obstruccion_filtros=None, bateria_en_descarga=None, averia_red_salida=None, apertura_interruptores=None, fallo_bateria_supervision=None, temperatura_termostato=None, cargador_modo_fondo=None) senalizaciones=Senalizaciones(red_ok=None, bateria_carga_flotacion=None, bateria_carga_rapida=None, bateria_carga_excepcional=None, ventiladores_funcionando=None, carga_por_red_alternativa=None, falla=None, tension_bateria=None, tension_consumos=None, corriente_baterias=None, corriente_consumos=None, alarmas_discriminadas=None) aparatos_medida=AparatosDeMedida(unidad_digital_centralizada=None, protocolo_comunicacion=None, puerto_comunicacion=None, mide_corrientes_entrada=None, mide_tensiones_entrada=None, mide_corriente_salida_rectificador=None, mide_corriente_carga_baterias=None, mide_tension_salida_rectificador=None, mide_tension_baterias=None, mide_tension_consumos=None, mide_corriente_descarga_baterias=None) caracteristicas_accesorios=CaracteristicasAccesoriosAuxiliares(panel_control=None, resistencias_calefactoras=None, cables_potencia_auxiliares=None, bornes_reserva=None, nivel_ruido_db_a=None, placas_identificacion=None, chapa_caracteristicas=None) inspecciones_ensayos=InspeccionesEnsayos(resistencia_aislacion=None, ensayo_dieletrico=None, resistencia_aislacion_post=None, elementos_mecanicos_enclavamientos=None, tolerancia_tension_salida=None, nivel_rizado=None, verificacion_valores_salida_control=None, verificacion_tensiones_carga=None, variacion_tension_alimentacion=None, variacion_carga_0_a_100=None, verificacion_carga_bateria=None, contenido_armonicos_alimentacion=None, ensayo_plena_carga_48h=None, ensayo_rendimiento=None, reparto_intensidades_paralelo=None, prueba_senalizacion_alarma=None, prueba_funcional_total=None, capacidad_corriente_cortocircuito=None) garantia=Garantia(descripcion=None, meses=None)
+--------------------------------------------------
+

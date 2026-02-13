@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unified Liquidity Platform - CPO Presentation</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: #0a0a0a;
+            color: #ffffff;
+            overflow: hidden;
+        }
+
+        .presentation-container {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+
+        .slide {
+            width: 90%;
+            max-width: 1200px;
+            height: 90vh;
+            display: none;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 60px;
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 100%);
+            border-radius: 20px;
+            box-shadow: 0 30px 60px rgba(0, 0, 0, 0.8);
+            position: relative;
+            animation: slideIn 0.5s ease-out;
+        }
+
+        .slide.active {
+            display: flex;
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateX(100px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        h1 {
+            font-size: 3.5em;
+            font-weight: 900;
+            margin-bottom: 30px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-align: center;
+            line-height: 1.2;
+        }
+
+        h2 {
+            font-size: 2.5em;
+            font-weight: 700;
+            color: #ffffff;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+
+        h3 {
+            font-size: 1.8em;
+            font-weight: 600;
+            color: #667eea;
+            margin-bottom: 20px;
+        }
+
+        .big-number {
+            font-size: 5em;
+            font-weight: 900;
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin: 30px 0;
+            text-align: center;
+        }
+
+        .metric-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin: 40px 0;
+            width: 100%;
+        }
+
+        .metric-card {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .metric-value {
+            font-size: 2.5em;
+            font-weight: 900;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .navigation {
+            position: fixed;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            gap: 20px;
+            z-index: 1000;
+        }
+
+        .nav-btn {
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            color: white;
+            padding: 15px 30px;
+            border-radius: 30px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .nav-btn:hover {
+            background: rgba(102, 126, 234, 0.3);
+            border-color: #667eea;
+        }
+
+        .warning-box {
+            background: rgba(245, 87, 108, 0.1);
+            border: 2px solid #f5576c;
+            border-radius: 15px;
+            padding: 30px;
+            margin: 30px 0;
+        }
+
+        .success-box {
+            background: rgba(79, 172, 254, 0.1);
+            border: 2px solid #4facfe;
+            border-radius: 15px;
+            padding: 30px;
+            margin: 30px 0;
+        }
+
+        .slide-number {
+            position: absolute;
+            top: 20px;
+            right: 30px;
+            font-size: 1em;
+            color: rgba(255, 255, 255, 0.6);
+            font-weight: 500;
+        }
+
+        .content {
+            width: 100%;
+            max-width: 900px;
+        }
+
+        .bullet-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .bullet-list li {
+            padding: 10px 0;
+            font-size: 1.2em;
+            position: relative;
+            padding-left: 30px;
+        }
+
+        .bullet-list li:before {
+            content: "→";
+            position: absolute;
+            left: 0;
+            color: #667eea;
+            font-weight: bold;
+        }
+
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 30px 0;
+        }
+
+        .comparison-table th {
+            background: rgba(102, 126, 234, 0.2);
+            padding: 20px;
+            font-size: 1.3em;
+            font-weight: 600;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .comparison-table td {
+            padding: 20px;
+            font-size: 1.1em;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            vertical-align: top;
+        }
+
+        .old-way {
+            background: rgba(245, 87, 108, 0.1);
+            color: #f5576c;
+        }
+
+        .new-way {
+            background: rgba(79, 172, 254, 0.1);
+            color: #4facfe;
+        }
+
+        .quote {
+            font-size: 1.5em;
+            font-style: italic;
+            text-align: center;
+            padding: 30px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 15px;
+            margin: 30px 0;
+            border-left: 5px solid #667eea;
+        }
+
+        .metric-label {
+            font-size: 1em;
+            color: rgba(255, 255, 255, 0.8);
+            margin-top: 10px;
+        }
+
+        .highlight {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: bold;
+        }
+
+        .cta-button {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 20px 40px;
+            font-size: 1.3em;
+            font-weight: 600;
+            border-radius: 30px;
+            cursor: pointer;
+            margin-top: 40px;
+            transition: all 0.3s ease;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 30px rgba(102, 126, 234, 0.4);
+        }
+    </style>
+</head>
+<body>
+    <div class="presentation-container">
+        <!-- Slide 1: Cold Open -->
+        <div class="slide active">
+            <span class="slide-number">1 / 14</span>
+            <h1>CEO, WE'RE LEAVING $400M ON THE TABLE</h1>
+            <div class="content">
+                <p><strong>Right now, while we're in this room:</strong></p>
+                <ul class="bullet-list">
+                    <li>200 of our clients are desperate for cash</li>
+                    <li>They have $800M in machines we ignore</li>
+                    <li>Our competitors are circling</li>
+                </ul>
+                <div class="success-box">
+                    <p><strong>I have a product that captures it all.</strong></p>
+                    <p style="margin-top: 20px;">10 minutes. Let me show you how we 5x our business.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 2: Reality Check -->
+        <div class="slide">
+            <span class="slide-number">2 / 14</span>
+            <h2>OUR CURRENT BUSINESS IS A HALF-PRODUCT</h2>
+            <div class="content">
+                <table class="comparison-table">
+                    <tr>
+                        <th>What we do today:</th>
+                        <th>What clients actually have:</th>
+                    </tr>
+                    <tr>
+                        <td class="old-way">Invoice → 90% advance → Wait → Collect</td>
+                        <td>
+                            <div>📄 $2M invoices <span class="new-way">(we take these)</span></div>
+                            <div>🏭 $3M machines <span class="old-way">(we ignore these)</span></div>
+                            <div>📦 $1M inventory <span class="old-way">(we ignore these)</span></div>
+                        </td>
+                    </tr>
+                </table>
+                <div class="warning-box">
+                    <p><strong>We're the restaurant that only sells drinks when customers want the meal</strong></p>
+                    <p style="margin-top: 15px;">Our NPS is 47. It should be 90.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 3: Client Pain -->
+        <div class="slide">
+            <span class="slide-number">3 / 14</span>
+            <h2>I SPENT LAST WEEK WITH JUAN (OUR #3 CLIENT)</h2>
+            <div class="content">
+                <div class="quote">
+                    "I love you guys for invoices. But I had to go to THREE other lenders for my machines. It took 6 weeks. I almost left you completely for someone who could do both."
+                </div>
+                <div class="metric-grid">
+                    <div class="metric-card">
+                        <div class="metric-value">47</div>
+                        <div class="metric-label">Clients who left us</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-value">$18M</div>
+                        <div class="metric-label">Lost revenue/year</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 4: Product Vision -->
+        <div class="slide">
+            <span class="slide-number">4 / 14</span>
+            <h1>ONE PLATFORM. EVERYTHING LIQUID. INSTANTLY.</h1>
+            <div class="content">
+                <table class="comparison-table">
+                    <tr>
+                        <th>OLD WAY (Today)</th>
+                        <th>NEW WAY (My proposal)</th>
+                    </tr>
+                    <tr>
+                        <td class="old-way">
+                            Upload invoice<br>
+                            ↓<br>
+                            Wait 3 days<br>
+                            ↓<br>
+                            Get 90%<br>
+                            ↓<br>
+                            Repeat
+                        </td>
+                        <td class="new-way">
+                            Connect everything once<br>
+                            ↓<br>
+                            See total credit line<br>
+                            ↓<br>
+                            Draw instantly<br>
+                            ↓<br>
+                            No questions
+                        </td>
+                    </tr>
+                </table>
+                <div class="success-box">
+                    <p><strong>It's not factoring anymore.</strong></p>
+                    <p><strong>It's a business liquidity operating system.</strong></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 5: Technical Moat -->
+        <div class="slide">
+            <span class="slide-number">5 / 14</span>
+            <h2>HOW WE BUILD AN UNBEATABLE PRODUCT</h2>
+            <div class="content">
+                <div style="text-align: left;">
+                    <h3>Phase 1: Aggregate (Month 1-2)</h3>
+                    <ul class="bullet-list">
+                        <li>Plug into client ERPs</li>
+                        <li>IoT sensors on machines</li>
+                        <li>Real-time asset dashboard</li>
+                    </ul>
+                    
+                    <h3>Phase 2: Intelligent Scoring (Month 3-4)</h3>
+                    <ul class="bullet-list">
+                        <li>Unified risk model across all assets</li>
+                        <li>Dynamic LTV based on portfolio</li>
+                        <li>Instant credit decisions</li>
+                    </ul>
+                    
+                    <h3>Phase 3: Liquidity Network (Month 5-6)</h3>
+                    <ul class="bullet-list">
+                        <li>Buyer payment platform</li>
+                        <li>Asset trading network</li>
+                        <li>Secondary market integration</li>
+                    </ul>
+                </div>
+                <div class="warning-box">
+                    <p><strong>Our competitors need 24 months to catch up. We need 6.</strong></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 6: Revenue Explosion -->
+        <div class="slide">
+            <span class="slide-number">6 / 14</span>
+            <h2>THIS ISN'T AN UPGRADE. IT'S A DIFFERENT BUSINESS.</h2>
+            <div class="content">
+                <div class="metric-grid">
+                    <div class="metric-card">
+                        <h3 class="old-way">Current Revenue</h3>
+                        <div class="metric-value">$8K</div>
+                        <div class="metric-label">per month</div>
+                        <div style="margin-top: 20px;">
+                            <p>Lifetime: 18 months</p>
+                            <p><strong>LTV: $144,000</strong></p>
+                        </div>
+                    </div>
+                    <div class="metric-card">
+                        <h3 class="new-way">New Revenue</h3>
+                        <div class="metric-value">$23K</div>
+                        <div class="metric-label">per month</div>
+                        <div style="margin-top: 20px;">
+                            <p>Lifetime: 48 months</p>
+                            <p><strong>LTV: $1,104,000</strong></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="big-number">7.6x LTV INCREASE</div>
+            </div>
+        </div>
+
+        <!-- Slide 7: Collection Innovation -->
+        <div class="slide">
+            <span class="slide-number">7 / 14</span>
+            <h2>WE STOP BEING PASSIVE. WE BECOME THE HUNTER.</h2>
+            <div class="content">
+                <div style="background: rgba(0,0,0,0.5); padding: 30px; border-radius: 15px; font-family: 'Courier New', monospace; text-align: left;">
+                    <p style="color: #4facfe;">if invoice_age > 30 days:</p>
+                    <p style="margin-left: 30px;">offer_discount(2%) → <span class="highlight">35% accept</span></p>
+                    <p style="color: #4facfe;">if invoice_age > 45 days:</p>
+                    <p style="margin-left: 30px;">offer_buyer_financing() → <span class="highlight">22% accept</span></p>
+                    <p style="color: #4facfe;">if invoice_age > 50 days:</p>
+                    <p style="margin-left: 30px;">negotiate_partial() → <span class="highlight">15% accept</span></p>
+                    <p style="color: #4facfe;">if invoice_age > 55 days:</p>
+                    <p style="margin-left: 30px;">offset_network() → <span class="highlight">15% accept</span></p>
+                </div>
+                <div class="metric-grid" style="margin-top: 40px;">
+                    <div class="metric-card">
+                        <div class="metric-value">87%</div>
+                        <div class="metric-label">Collected BEFORE due</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-value">65%</div>
+                        <div class="metric-label">Current: AFTER due</div>
+                    </div>
+                </div>
+                <div class="success-box">
+                    <p><strong>This alone adds $30M to our bottom line.</strong></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 8: Competitive Kill Shot -->
+        <div class="slide">
+            <span class="slide-number">8 / 14</span>
+            <h2>THREE MOVES TO MARKET DOMINATION</h2>
+            <div class="content">
+                <div style="text-align: left;">
+                    <div class="success-box">
+                        <h3>Move 1: The Migration (Q1)</h3>
+                        <p>Convert our 200 clients to unified platform</p>
+                        <p><strong>They can't leave - we have ALL their assets</strong></p>
+                    </div>
+                    
+                    <div class="success-box">
+                        <h3>Move 2: The Land Grab (Q2)</h3>
+                        <p>3 association deals = 500 new clients</p>
+                        <p><strong>Exclusive partnership locks out competitors</strong></p>
+                    </div>
+                    
+                    <div class="success-box">
+                        <h3>Move 3: The Network Effect (Q3)</h3>
+                        <p>500 buyers trained on our system</p>
+                        <p><strong>Switching cost becomes prohibitive</strong></p>
+                    </div>
+                </div>
+                <h1 style="margin-top: 40px;">By Q4: We own the market</h1>
+            </div>
+        </div>
+
+        <!-- Slide 9: Risk Mitigation -->
+        <div class="slide">
+            <span class="slide-number">9 / 14</span>
+            <h2>YES, I'VE THOUGHT ABOUT WHAT COULD GO WRONG</h2>
+            <div class="content">
+                <div style="text-align: left;">
+                    <div class="warning-box">
+                        <h3>Risk 1: "What if clients don't adopt?"</h3>
+                        <ul class="bullet-list">
+                            <li>Tested with 15 enterprises</li>
+                            <li>100% said they'd switch immediately</li>
+                            <li>3x higher pricing accepted</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="warning-box">
+                        <h3>Risk 2: "What if fraud increases?"</h3>
+                        <ul class="bullet-list">
+                            <li>IoT monitoring = real-time asset tracking</li>
+                            <li>Cross-collateralization = lower risk</li>
+                            <li>Actually SAFER than today</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="warning-box">
+                        <h3>Risk 3: "What if we can't liquidate machines?"</h3>
+                        <ul class="bullet-list">
+                            <li>Pre-negotiated buyback agreements</li>
+                            <li>Secondary market partnerships</li>
+                            <li>Machines are backup - invoices still primary</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 10: The Numbers -->
+        <div class="slide">
+            <span class="slide-number">10 / 14</span>
+            <h2>CONSERVATIVE PROJECTIONS</h2>
+            <div class="content">
+                <h3>Investment Required: $15M</h3>
+                <div class="metric-grid">
+                    <div class="metric-card">
+                        <div class="metric-value">$6M</div>
+                        <div class="metric-label">Platform Development</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-value">$4M</div>
+                        <div class="metric-label">Collection Infrastructure</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-value">$3M</div>
+                        <div class="metric-label">Client Migration</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-value">$2M</div>
+                        <div class="metric-label">Working Capital</div>
+                    </div>
+                </div>
+                
+                <table class="comparison-table" style="margin-top: 40px;">
+                    <tr>
+                        <th>Metric</th>
+                        <th>Today</th>
+                        <th>Year 1</th>
+                        <th>Year 2</th>
+                    </tr>
+                    <tr>
+                        <td>Portfolio</td>
+                        <td>$50M</td>
+                        <td>$250M</td>
+                        <td>$750M</td>
+                    </tr>
+                    <tr>
+                        <td>Revenue</td>
+                        <td>$6M</td>
+                        <td>$45M</td>
+                        <td>$135M</td>
+                    </tr>
+                    <tr>
+                        <td>EBITDA</td>
+                        <td>$1M</td>
+                        <td>$18M</td>
+                        <td>$67M</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Valuation</strong></td>
+                        <td><strong>$50M</strong></td>
+                        <td><strong>$300M</strong></td>
+                        <td><strong>$1B+</strong></td>
+                    </tr>
+                </table>
+                
+                <div class="big-number">20x RETURN IN 24 MONTHS</div>
+            </div>
+        </div>
+
+        <!-- Slide 11: Team Ready -->
+        <div class="slide">
+            <span class="slide-number">11 / 14</span>
+            <h2>I'VE ALREADY BUILT THE SQUAD</h2>
+            <div class="content">
+                <div style="text-align: left;">
+                    <h3>Product Team:</h3>
+                    <ul class="bullet-list">
+                        <li>ML engineer from Stripe <span class="highlight">(starting Monday)</span></li>
+                        <li>Risk modeler from Goldman <span class="highlight">(offer accepted)</span></li>
+                        <li>IoT specialist from Tesla <span class="highlight">(in talks)</span></li>
+                    </ul>
+                    
+                    <h3>Partnerships Lined Up:</h3>
+                    <ul class="bullet-list">
+                        <li>Equipment valuator <span class="highlight">(LOI signed)</span></li>
+                        <li>IoT provider <span class="highlight">(terms agreed)</span></li>
+                        <li>3 associations <span class="highlight">(waiting for our yes)</span></li>
+                    </ul>
+                </div>
+                
+                <div class="success-box">
+                    <h2>We can ship MVP in 60 days</h2>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 12: Decision Framework -->
+        <div class="slide">
+            <span class="slide-number">12 / 14</span>
+            <h2>HERE'S HOW I SEE OUR OPTIONS</h2>
+            <div class="content">
+                <div class="metric-grid">
+                    <div class="warning-box">
+                        <h3>Option A: Stay the course</h3>
+                        <ul class="bullet-list" style="font-size: 1em;">
+                            <li>Keep losing clients to competitors</li>
+                            <li>Watch margins compress</li>
+                            <li>Become commodity in 18 months</li>
+                        </ul>
+                    </div>
+                    <div class="success-box">
+                        <h3>Option B: Build this product</h3>
+                        <ul class="bullet-list" style="font-size: 1em;">
+                            <li>Lock in clients for life</li>
+                            <li>7.6x revenue per client</li>
+                            <li>Become the category king</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div style="margin-top: 40px; padding: 30px; background: rgba(102, 126, 234, 0.1); border-radius: 15px;">
+                    <p style="font-size: 1.3em;"><strong>The question isn't IF we do this.</strong></p>
+                    <p style="font-size: 1.3em;"><strong>It's whether we do it now or after a competitor does.</strong></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 13: The Ask -->
+        <div class="slide">
+            <span class="slide-number">13 / 14</span>
+            <h2>I NEED THREE THINGS FROM YOU</h2>
+            <div class="content">
+                <div style="text-align: left;">
+                    <div class="metric-card" style="width: 100%; margin-bottom: 20px;">
+                        <h3>1. Your YES</h3>
+                        <p>Today. We announce at Monday's all-hands</p>
+                    </div>
+                    
+                    <div class="metric-card" style="width: 100%; margin-bottom: 20px;">
+                        <h3>2. The $15M budget</h3>
+                        <p>Already negotiated with finance - they're on board</p>
+                    </div>
+                    
+                    <div class="metric-card" style="width: 100%; margin-bottom: 20px;">
+                        <h3>3. Your political capital</h3>
+                        <p>One board presentation to align everyone</p>
+                    </div>
+                </div>
+                
+                <div class="success-box">
+                    <h3>In return:</h3>
+                    <ul class="bullet-list">
+                        <li>MVP in 60 days</li>
+                        <li>Break-even in 6 months</li>
+                        <li>Market leadership in 12 months</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 14: Closing -->
+        <div class="slide">
+            <span class="slide-number">14 / 14</span>
+            <h2>ONE FINAL THOUGHT</h2>
+            <div class="content">
+                <div class="quote">
+                    <p><strong>Five years ago, you asked me:</strong></p>
+                    <p>"What would kill our business?"</p>
+                    <p style="margin-top: 20px;"><strong>I said:</strong> "Someone who makes factoring irrelevant by solving the real problem."</p>
+                </div>
+                
+                <div class="warning-box">
+                    <h3>That someone is about to exist.</h3>
+                </div>
+                
+                <h1 style="margin-top: 40px;">Will it be us or them?</h1>
+                
+                <div style="margin-top: 40px;">
+                    <p style="font-size: 1.5em;"><em>I'm ready to build this.</em></p>
+                    <p style="font-size: 1.5em;"><em>Are you ready to own the market?</em></p>
+                </div>
+                
+                <button class="cta-button">Let's Discuss</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="navigation">
+        <button class="nav-btn" onclick="previousSlide()">← Previous</button>
+        <button class="nav-btn" onclick="nextSlide()">Next →</button>
+    </div>
+
+    <script>
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.slide');
+        const totalSlides = slides.length;
+
+        function showSlide(n) {
+            slides[currentSlide].classList.remove('active');
+            currentSlide = (n + totalSlides) % totalSlides;
+            slides[currentSlide].classList.add('active');
+        }
+
+        function nextSlide() {
+            showSlide(currentSlide + 1);
+        }
+
+        function previousSlide() {
+            showSlide(currentSlide - 1);
+        }
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowRight') nextSlide();
+            if (e.key === 'ArrowLeft') previousSlide();
+        });
+    </script>
+</body>
+</html>

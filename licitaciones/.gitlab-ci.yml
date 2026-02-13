@@ -1,0 +1,49 @@
+stages:
+  - lint
+  - test
+  - build
+
+variables:
+  UV_SYSTEM_PYTHON: "1"
+
+.uv-setup: &uv-setup
+  before_script:
+    - pip install uv
+    - uv sync --all-extras
+    - source .venv/bin/activate
+
+.default-rules: &default-rules
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "merge_request_event" && $CI_MERGE_REQUEST_TARGET_BRANCH_NAME == "main"'
+    - if: '$CI_COMMIT_BRANCH == "main"'
+
+ruff-check:
+  stage: lint
+  image: python:3.11-slim
+  <<: *uv-setup
+  <<: *default-rules
+  script:
+    - ruff check .
+
+ruff-format:
+  stage: lint
+  image: python:3.11-slim
+  <<: *uv-setup
+  <<: *default-rules
+  script:
+    - ruff format --check .
+
+pytest:
+  stage: test
+  image: python:3.11-slim
+  <<: *uv-setup
+  <<: *default-rules
+  script:
+    - pytest
+
+docker-compose-validate:
+  stage: build
+  image: docker:24
+  <<: *default-rules
+  script:
+    - docker compose config --quiet

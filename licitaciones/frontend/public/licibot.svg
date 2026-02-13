@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#facc15"/>
+      <stop offset="100%" style="stop-color:#f59e0b"/>
+    </linearGradient>
+  </defs>
+  <!-- Fondo redondeado -->
+  <rect x="2" y="2" width="28" height="28" rx="6" fill="url(#bg)"/>
+  <!-- Rayo (Zap icon de Lucide) -->
+  <path d="M17.5 6L10 18h5l-1.5 8L22 14h-5l1.5-8z" fill="white" stroke="white" stroke-width="1" stroke-linejoin="round"/>
+  <!-- Mini circulo azul del bot -->
+  <circle cx="25" cy="25" r="5" fill="#2563eb" stroke="white" stroke-width="1.5"/>
+  <!-- Ojitos del bot -->
+  <circle cx="23.5" cy="24.5" r="1" fill="white"/>
+  <circle cx="26.5" cy="24.5" r="1" fill="white"/>
+</svg>
